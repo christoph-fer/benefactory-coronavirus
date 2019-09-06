@@ -1,0 +1,260 @@
+body {
+    margin: 0px;
+}
+
+.wrapper {
+    display: grid;
+    /* max-width: 1440px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section1 {
+    display: grid;
+    background-image:
+        linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
+        url('Assets/amazon-brazil-fire.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.beneheader {
+    height: 150px;
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.section1content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 70px;
+}
+
+.mainheading {
+    margin-top: -20%;
+    max-width: 500px;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.headertext {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    color: #fff;
+    letter-spacing: 7px;
+}
+
+.head_desc {
+    font-family: 'Space Mono', sans-serif;
+    color: #fff;
+    max-width: 600px;
+}
+
+.donate_card {
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    max-width: 600px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 15px 30px rgba(0, 0, 0, 0.4));
+    margin-top: -20%;
+}
+
+.donate_card>div {
+    padding: 24px;
+}
+
+.donate_head {
+    display: grid;
+    background-color: #FCF7F6;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    align-content: flex-start;
+    height: fit-content;
+}
+
+.donate_card>div>img {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.donate_desc {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+
+.donate_desc>span {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.donate_desc>img {
+    padding-right: 20px;
+}
+
+.donate_stat {
+    display: grid;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 11px;
+    color: #ba3027;
+    grid-template-rows: 1fr;
+    padding-top: 24px;
+}
+
+.donate_count {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 56px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.rupee_symbol {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+input[type=text] {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 11px;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 3px;
+    outline: none;
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.05));
+}
+
+input[type=button] {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    background-color: #ba3027;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100px;
+    height: 35px;
+    ;
+    text-decoration: none;
+    box-shadow: 0 1px 5px 0 rgba(186, 49, 39, 0.5);
+    cursor: pointer;
+    align-self: center;
+    margin-left: auto;
+}
+
+input[type=text]:focus {
+    border: 1px solid #ba3027;
+}
+
+label {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #ba3027;
+}
+
+.bene_form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 12px;
+}
+
+.section2 {
+    margin: 150px;
+}
+
+.section2image {
+    height: auto;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(Assets/amazon-brazil-fire-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.3));
+}
+
+.section2image>p {
+    font-family: 'Space Mono', sans-serif;
+    font-size: 18px;
+    max-width: 700px;
+    color: #fff;
+
+}
+
+.section2image>h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+.section3 {
+    margin: 0px 150px;
+}
+
+.nonprofitimg {
+    margin-left: -20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section3>.head_desc {
+    font-family: 'Space Mono', sans-serif;
+    color: #000000;
+    max-width: 600px;
+}
+
+.section4 {
+    margin: 150px 0px;
+}
+
+.section4image {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(Assets/amazon-brazil-fire-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+
+}
+
+.section4content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 150px;
+}
+
+.section4content>div {
+    background-color: #fff;
+    filter: drop-shadow(0px 15px 30px rgba(0, 0, 0, 0.2));
+    padding: 30px;
+    margin: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    margin-top: 20px;
+    line-height: 27px;
+}
+
+.section4head {
+    margin: 0px 180px;
+    margin-top: -200px;
+}
+
+.section4head>.head_desc {
+    max-width: 600px;
+}
