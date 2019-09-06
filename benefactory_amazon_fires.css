@@ -137,22 +137,24 @@ input[type=text] {
 }
 
 input[type=button] {
+    -webkit-appearance: none;
+    appearance: none;
     font-family: 'Work Sans', sans-serif;
     font-size: 11px;
     font-weight: 500;
     background-color: #ba3027;
     border: none;
     color: white;
-    border-radius: 3px;
-    padding: 10px;
-    width: 100px;
+    border-radius: 20px;
+    padding: 10px 20px;
     height: 35px;
-    ;
     text-decoration: none;
     box-shadow: 0 1px 5px 0 rgba(186, 49, 39, 0.5);
     cursor: pointer;
     align-self: center;
     margin-left: auto;
+    letter-spacing: 1.5px;
+    outline: none;
 }
 
 input[type=text]:focus {
@@ -530,5 +532,16 @@ label {
     .section4content>div {
         padding: 30px;
         font-size: 18px;
+    }
+
+    .bene_form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 12px;
+    }
+
+    input[type=button] {
+        width: 100%;
+        margin-top: 20px;
     }
 }
