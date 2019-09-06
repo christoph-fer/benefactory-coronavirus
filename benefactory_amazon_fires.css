@@ -463,6 +463,7 @@ label {
         font-weight: 700;
         letter-spacing: -1px;
         color: #fff;
+        margin-top: 60px;
     }
 }
 
@@ -476,7 +477,15 @@ label {
     }
 
     .section2 {
-        margin: 30px;
+        margin: 50px 0px;
+    }
+
+    .section2>img {
+        margin-left: 30px;
+    }
+
+    .section2image {
+        padding: 30px;
     }
 
     .section3 {
@@ -498,5 +507,28 @@ label {
     .section4head {
         margin: 0px 30px;
         margin-top: -200px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .section1content {
+        padding: 0px;
+    }
+
+    .donate_card {
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .mainheading {
+        padding: 30px;
+    }
+
+    .section4content {
+        grid-template-columns: 1fr;
+    }
+
+    .section4content>div {
+        padding: 30px;
+        font-size: 18px;
     }
 }
